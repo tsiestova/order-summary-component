@@ -134,6 +134,13 @@
   text-decoration-line: underline;
   color: var(--btn-color);
 
+  &:hover {
+    @include breakpoint(desktop) {
+      cursor: pointer;
+      color: var(--hover-color);
+    }
+
+  }
   @include breakpoint(desktop) {
     font-size: 14px;
     line-height: 19px;
@@ -151,6 +158,11 @@
   box-shadow: 0 20px 20px rgb(56 42 225 / 19%);
   border-radius: 11px;
   margin-bottom: 23px;
+
+  &:hover {
+    cursor: pointer;
+    background: var(--hover-color);
+  }
 
   @include breakpoint(desktop) {
     margin-bottom: 30px;

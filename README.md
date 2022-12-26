@@ -1,13 +1,12 @@
 
 ### Links
 
-- Live Site: [Demo](https://your-live-site-url.com)
+- Live Site: [Demo](https://order-summary-component-puce-alpha.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - Webpack
-- sCSS custom properties
+- SCSS custom properties
 - Flexbox
 - Mobile-first workflow
-
